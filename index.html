@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpiritX 2026 Countdown</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Preload background image to improve loading performance -->
+    <link rel="preload" href="background.jpg" as="image">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="logo (3).png" alt="SpiritX Logo" class="logo">
+        </div>
+        <h1>SpiritX 2026</h1>
+        <h2>The Energy Begins In...</h2>
+        
+        <div class="countdown">
+            <div class="time-block">
+                <div class="time" id="days">00</div>
+                <div class="label">Days</div>
+            </div>
+            <div class="separator">:</div>
+            <div class="time-block">
+                <div class="time" id="hours">00</div>
+                <div class="label">Hours</div>
+            </div>
+            <div class="separator">:</div>
+            <div class="time-block">
+                <div class="time" id="minutes">00</div>
+                <div class="label">Minutes</div>
+            </div>
+            <div class="separator">:</div>
+            <div class="time-block">
+                <div class="time" id="seconds">00</div>
+                <div class="label">Seconds</div>
+            </div>
+        </div>
+        
+        <div class="message" id="countdown-message">Stay tuned. It's going to be legendary.</div>
+        <div class="message" id="complete-message" style="display: none;">Welcome to SpiritX 2026!</div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
